@@ -1,0 +1,19 @@
+{
+  "name": "electron-rust",
+  "version": "1.0.0",
+  "description": "Elctron to rust playground.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adam Saladino <adam@codingsimply.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ffi": "^2.2.0"
+  },
+  "devDependencies": {
+    "electron": "^1.7.6",
+    "electron-rebuild": "^1.6.0"
+  }
+}
