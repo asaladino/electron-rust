@@ -7,6 +7,3 @@ authors = ["Adam Saladino <adam@codingsimply.com>"]
 [lib]
 name = "fibonacci"
 crate-type = ["dylib"]
-
-[dependencies]
-# tensorflow = "0.3"

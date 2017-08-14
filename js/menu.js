@@ -25,7 +25,7 @@ menu.append(new MenuItem({
 document.addEventListener('DOMContentLoaded', function () {
 
   let filesContext = document.querySelectorAll('.file_arq');
-  
+
   filesContext.forEach(function(el){
     el.addEventListener('click', function (event) {
       event.preventDefault()
