@@ -4,26 +4,27 @@
     <meta charset="UTF-8">
     <title>Electron Rust</title>
 
-    <link rel="stylesheet" href="./css/photon.css">
-    <script src="./js/menu.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/css/foundation.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.min.js"></script>
 </head>
 <body>
 
 <div class="window">
-    <!-- .toolbar-header sits at the top of your app -->
-    <header class="toolbar toolbar-header">
-        <div class="toolbar-actions">
-            <div class="btn-group">
-                <button class="btn btn-default" id="fib">
-                    <span class="icon icon-home icon-text"></span>
-                    Calc Fibonacci
-                </button>
-            </div>
-            <div class="btn-group" style="width:80px;text-align: right;">
-                <input id="number" class="form-control"/>
-            </div>
+    <div class="top-bar">
+        <div class="top-bar-left">
+            <ul class="menu">
+                <li>
+                    <input id="number" type="search" />
+                </li>
+                <li>
+                    <button type="button" class="button" id="fib">
+                        Fibonacci
+                    </button>
+                </li>
+            </ul>
         </div>
-    </header>
+    </div>
 
     <!-- Your app's content goes inside .window-content -->
     <div class="window-content">
