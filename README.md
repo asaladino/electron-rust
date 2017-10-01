@@ -8,7 +8,7 @@ Demo electron to rust app.
 * Rust
 * Node
 
-and fun.
+and fun!
 
 ## Build & Run
 
