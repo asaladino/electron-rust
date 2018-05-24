@@ -1,4 +1,4 @@
-let ffi = require('ffi');
+let ffi = require('ffi-napi');
 let path = require('path');
 
 let fibonacci = ffi.Library(path.join(__dirname, './target/debug/libfibonacci'), {

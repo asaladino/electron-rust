@@ -10,10 +10,9 @@
   "author": "Adam Saladino <adam@codingsimply.com>",
   "license": "MIT",
   "dependencies": {
-    "ffi": "^2.2.0"
+    "ffi-napi": "^2.4.3"
   },
   "devDependencies": {
-    "electron": "^1.7.6",
-    "electron-rebuild": "^1.6.0"
+    "electron": "2.0.2"
   }
 }

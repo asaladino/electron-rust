@@ -6,7 +6,6 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/css/foundation.min.css"/>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.min.js"></script>
 </head>
 <body>
 
@@ -64,7 +63,7 @@
 </div>
 
 <script>
-    let ffi = require('ffi');
+    let ffi = require('ffi-napi');
     let path = require('path');
 
     let fibonacci = ffi.Library(path.join(__dirname, './target/debug/libfibonacci'), {
