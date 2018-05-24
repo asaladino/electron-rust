@@ -8,6 +8,8 @@ Demo electron to rust app.
 * Rust
 * Node
 
+and fun!
+
 ## Build & Run
 
 * `npm install` will download required node packages.
